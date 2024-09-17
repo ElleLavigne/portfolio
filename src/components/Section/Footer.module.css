@@ -1,0 +1,25 @@
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 4rem;
+  gap: 1rem;
+}
+.socialMedia{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.skill{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+@media (max-width: 425px) {
+  footer{
+    flex-direction: column;
+  }
+}

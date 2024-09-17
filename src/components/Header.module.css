@@ -1,0 +1,27 @@
+.header {
+  /* margin: 0 150px; */
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  justify-content: space-between;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.navLink a {
+  color: var(--black-);
+  text-decoration: none;
+  font-weight: 500;
+}
+.navLink a:hover {
+  color: var(--gray-400);
+}
+
+/* @media (max-width: 425px) {
+  .navLink{
+    display: none;
+  }
+} */

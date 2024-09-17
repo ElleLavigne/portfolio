@@ -1,0 +1,67 @@
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8.625rem;
+}
+.arrow {
+  width: 3rem;
+  height: 3rem;
+}
+.text {
+  margin-top: 3.5rem;
+  display: flex;
+  align-items: baseline;
+  gap: 3.5rem;
+}
+.text h1 {
+  font-size: 3.75rem;
+  animation: fadeIn forwards;
+  opacity: 0;
+  animation-duration: 1.5s;
+}
+.text p {
+  font-size: 1.5rem;
+  animation: fadeIn forwards;
+  opacity: 0;
+  animation-duration: 1.5s;
+  animation-delay: 500ms;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@media (max-width: 768px) {
+  .text h1 {
+    font-size: 2.2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .headline {
+    gap: 6rem;
+  }
+}
+/* @media (max-width: 320px) {
+  h1 {
+    font-size: 0.87rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .headline {
+    gap: 6rem;
+  }
+} */
+@media (max-width: 768px) {
+ .text{
+  flex-direction: column;
+ }
+}
