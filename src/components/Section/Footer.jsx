@@ -1,15 +1,27 @@
 import styles from "./Footer.module.css"
-// import figma from "../../../public/figma.svg"
+import { CONFIG } from "../../static/config.js"
 export function Footer() {
   return (
     <>
       <footer>
         <nav className={styles.socialMedia}>
-          <a href="https://github.com/ElleLavigne" target="_blank">
+          <a
+            className={styles.link}
+            href="https://github.com/ElleLavigne"
+            target="_blank"
+          >
             Github
           </a>
-          <a href="www.linkedin.com/in/izaelle-lavigne-18a62427a" target="_blank">LinkedIn</a>
-          <a href="">Gmail</a>
+          <a
+            className={styles.link}
+            href="www.linkedin.com/in/izaelle-lavigne-18a62427a"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+          <a className={styles.link} href={`mailto:${CONFIG.email}`}>
+            Gmail
+          </a>
         </nav>
 
         <nav className={styles.skill}>

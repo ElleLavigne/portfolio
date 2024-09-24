@@ -12,8 +12,9 @@ export function Project({ title, subtitle, description, thumb, links = []}) {
             <p className={styles.description}>{description}</p>
             {links.map((link) => {
               return (
-                <a key={link.href} href={link.href}>
+                <a className={styles.link} key={link.href} href={link.href}>
                   {link.text}
+                <img className={styles.arrow} src="/arrow.svg" alt="" />
                 </a>
               )
             })}
