@@ -69,3 +69,8 @@ img {
   margin-left: 1.5rem;
   
 }
+.email{
+  text-decoration: none;
+  color: var(--black-);
+  font-weight: bold;
+}

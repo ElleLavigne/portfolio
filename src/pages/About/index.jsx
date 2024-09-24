@@ -34,7 +34,7 @@ export function About() {
           next project
           <img src="/arrow.svg" alt="" />
         </h3>
-        <a href={`mailto:${CONFIG.email}`}>{CONFIG.email}</a>
+        <a className={styles.email} href={`mailto:${CONFIG.email}`}>{CONFIG.email}</a>
         
       </div>
     </>
