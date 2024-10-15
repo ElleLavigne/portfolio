@@ -63,6 +63,10 @@ export function Projects(){
               href: "https://github.com/ElleLavigne/Norte-Contabilidade",
               text: "Github",
             },
+            {
+              href: "https://norte-contabilidade.vercel.app/",
+              text: "View on web",
+            },
           ]}
         />
         {/* ___________________________________ */}
@@ -95,6 +99,10 @@ export function Projects(){
             {
               href: "https://www.figma.com/design/KROdgyQuIrfoRxMt4z7ETm/Ecommerce?node-id=156-130&t=z1maW9NWPklUJdFX-1",
               text: "Figma",
+            },
+            {
+              href: "https://ecommerce-genz.vercel.app/",
+              text: "View on web",
             },
           ]}
         />

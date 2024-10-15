@@ -5,7 +5,7 @@ export function Animation({ children, animation = "fadeUp" }) {
     <>
       <ScrollAnimation
         animateIn={animation}
-        offset={130}
+        offset={25}
         animateOnce={true}
         animatePreScroll={false}
       >
