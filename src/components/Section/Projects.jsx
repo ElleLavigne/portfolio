@@ -106,6 +106,23 @@ export function Projects(){
             },
           ]}
         />
+        <Project
+          title={"DT-Money - Rocketseat"}
+          subtitle={"Gerenciamento financeiro"}
+          description={
+            "Made with typescript and styled component in react."
+          }
+          thumb={"/thumb-dt-money.png"}
+          links={[
+            {
+              href: "https://github.com/ElleLavigne/03-dt-money",
+              text: "Github",
+            },
+           
+           
+          ]}
+        />
+        
       </div>
     </>
   )
