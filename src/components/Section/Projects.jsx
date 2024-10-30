@@ -71,20 +71,6 @@ export function Projects(){
         />
         {/* ___________________________________ */}
         <Project
-          title={"Ignite Timer  - Rocketseat"}
-          subtitle={"Pomodoro Timer - Rocketseat"}
-          description={"Made with typescript and styled component in react"}
-          thumb={"/thumbIgniteTimer.png"}
-          links={[
-            {
-              href: "https://github.com/ElleLavigne/ignite-timer",
-              text: "Github",
-            },
-          ]}
-        />
-        {/* ___________________________________ */}
-
-        <Project
           title={"E-commerce  - Genz"}
           subtitle={"Ecommerce minimalist punk style"}
           description={
@@ -106,6 +92,22 @@ export function Projects(){
             },
           ]}
         />
+        
+        <Project
+          title={"Ignite Timer  - Rocketseat"}
+          subtitle={"Pomodoro Timer - Rocketseat"}
+          description={"Made with typescript and styled component in react"}
+          thumb={"/thumbIgniteTimer.png"}
+          links={[
+            {
+              href: "https://github.com/ElleLavigne/ignite-timer",
+              text: "Github",
+            },
+          ]}
+        />
+        {/* ___________________________________ */}
+
+
         <Project
           title={"DT-Money - Rocketseat"}
           subtitle={"Gerenciamento financeiro"}
@@ -116,6 +118,22 @@ export function Projects(){
           links={[
             {
               href: "https://github.com/ElleLavigne/03-dt-money",
+              text: "Github",
+            },
+           
+           
+          ]}
+        />
+        <Project
+          title={"To Do - Rocketseat"}
+          subtitle={"To-Do List Application"}
+          description={
+            "A React and TypeScript project focused on API integration, dynamic routing, and responsive design, using Axios for data handling and Vite for optimized performance."
+          }
+          thumb={"/thumbToDo.png"}
+          links={[
+            {
+              href: "https://github.com/ElleLavigne/to-do-list",
               text: "Github",
             },
            
