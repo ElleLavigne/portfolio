@@ -11,19 +11,23 @@ export function About() {
             Hello, I'm Izaelle Lavigne, UI UX Design front-end developer
           </h1>
           <p className={styles.text}>
-            My work is specialized in interface design and front-end
-            development. With a solid experience in creating digital solutions,
-            integrated design and technology to deliver functional and
-            aesthetically defined products. Expert in JavaScript and React.
+          Front-end Developer and UI/UX Design specialist, I focus on creating high-performance, 
+          intuitive digital interfaces, combining technical skills with aesthetic vision to deliver exceptional solutions. 
+          I have advanced proficiency in React.js, JavaScript, TypeScript, CSS, and SCSS, 
+          along with expertise in modern development tools such as Vite and Styled-components. 
+          Experienced with Figma, Adobe, and Framer, I handle everything from visual conception to advanced prototyping, 
+          ensuring consistent and optimized experiences for end users.
           </p>
-          <div className={styles.mainSoftware}>
+
+          {/* <div className={styles.mainSoftware}>
             <strong>Main Software </strong> <p>Adobe, Figma and Framer</p>
           </div>
 
           <div className={styles.mainSkill}>
             <strong>Main Skills </strong>{" "}
             <p>ReactJS | Design Research, Design Thinking.</p>
-          </div>
+          </div> */}
+
         </div>
 
         <img className={styles.profile} src="/profile.png" alt="" />
