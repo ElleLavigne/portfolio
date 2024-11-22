@@ -1,5 +1,6 @@
 import { Animation } from "./Animation"
 import styles from "./Project.module.css"
+
 export function Project({ title, subtitle, description, thumb, links = []}) {
   return (
     <>
@@ -14,7 +15,6 @@ export function Project({ title, subtitle, description, thumb, links = []}) {
               return (
                 <a className={styles.link} target="_blank" key={link.href} href={link.href}>
                   {link.text}
-                <img className={styles.arrow} src="/arrow.svg" alt="" />
                 </a>
               )
             })}

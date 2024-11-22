@@ -18,11 +18,13 @@
   align-items: baseline;
   gap: 3.5rem;
 }
-.text h1 {
+.text span {
   font-size: 3.75rem;
   animation: fadeUp forwards;
   opacity: 0;
   animation-duration: 1.5s;
+  font-weight: 500;
+  
 }
 .text p {
   font-size: 1.5rem;

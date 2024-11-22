@@ -6,12 +6,10 @@ export function Projects(){
     <>
       <div className={styles.projects}>
         <Project
-          title={"Adopt Pet"}
-          subtitle={
-            "Adopt Pet was created to help people find new pets quickly and easily."
-          }
+          title={"Adopt Pet | App"}
+         
           description={
-            "Its interface was designed to be simple and intuitive so that people of different profiles could easily access it."
+            "Em processo: Um projeto elaborado para facilitar o meio de adoção trazendo elementos que facilitam a busca de um animal por meio da possibilidade de achar um animal mais próximo de você, poder filtrar espécie, gênero e idade, design pensado para ser flúido e simples facilitando o fluxo. Design das telas criado no Figma."
           }
           thumb={"/thumbAdoptPet.png"}
           links={[
@@ -21,25 +19,23 @@ export function Projects(){
             },
             {
               href: "https://medium.com/@izaelleavrillavigne/estudo-de-caso-ui-ux-adopt-pet-8b0b057c64bd",
-              text: "Case Study",
+              text: "Estudo de caso",
             },
           ]}
         />
 
         {/* ___________________________________ */}
         <Project
-          title={"Lossi - ecommerce"}
-          subtitle={
-            "This is a version of how I would do my first ecommerce today"
-          }
+          title={"Lossi | Ecommerce"}
+          
           description={
-            "This new design was designed to bring modernity and minimalism. The choice of neutral colors brings calm and modernity."
+            "Lossi é uma marca fictícia de cosméticos que criei para aprimorar minhas técnicas de design. O e-commerce foi desenvolvido com o propósito de ser simples e minimalista, trazendo sofisticação ao layout. Para isso, utilizei uma paleta de cores neutras, componentes de grande destaque e margens reduzidas, proporcionando um visual moderno. O design foi inteiramente elaborado no Figma."
           }
           thumb={"/thumbLossi.png"}
           links={[
             {
               href: "https://www.figma.com/design/roqn3atXPog3oBranyeBoa/Remaking-%7C-Lossi?node-id=93-122&t=ebEAB6LVmsu0IHcE-1",
-              text: "Figma",
+              text: "Projeto no Figma",
             },
           ]}
         />
@@ -47,11 +43,9 @@ export function Projects(){
         {/* ___________________________________ */}
         <Project
           title={"Norte Contabilidade - Site Institucional"}
-          subtitle={
-            "Website designed to present an accounting firm and facilitate communication."
-          }
+         
           description={
-            "Simple and objective design to present an accounting firm"
+            "Design criado no figma, programado em React.js."
           }
           thumb={"/thumbNorteContabilidade.png"}
           links={[
@@ -65,16 +59,15 @@ export function Projects(){
             },
             {
               href: "https://norte-contabilidade.vercel.app/",
-              text: "View on web",
+              text: "Visualizar na web",
             },
           ]}
         />
         {/* ___________________________________ */}
         <Project
           title={"E-commerce  - Genz"}
-          subtitle={"Ecommerce minimalist punk style"}
           description={
-            "Creating an identity for an ecommerce with a cyberpunk style. Programmed in tailwind."
+            "Design moderno e minimalista, criado no figma. Progamado em react utilizando tailwind"
           }
           thumb={"/thumbEcommerce.png"}
           links={[
@@ -88,15 +81,14 @@ export function Projects(){
             },
             {
               href: "https://ecommerce-genz.vercel.app/",
-              text: "View on web",
+              text: "Visualizar na Web",
             },
           ]}
         />
         
         <Project
-          title={"Ignite Timer  - Rocketseat"}
-          subtitle={"Pomodoro Timer - Rocketseat"}
-          description={"Made with typescript and styled component in react"}
+          title={"Timer Pomodoro"}
+          description={"Um timer Pomodoro simples, desenvolvido em React, que permite ao usuário gerenciar sessões de foco e pausas, seguindo a técnica Pomodoro para aumentar a produtividade."}
           thumb={"/thumbIgniteTimer.png"}
           links={[
             {
@@ -109,10 +101,9 @@ export function Projects(){
 
 
         <Project
-          title={"DT-Money - Rocketseat"}
-          subtitle={"Gerenciamento financeiro"}
+          title={"Dashboard | DT-Money"}
           description={
-            "Made with typescript and styled component in react."
+            "Uma aplicação web focada em consumo e integração de APIs, construída com React."
           }
           thumb={"/thumb-dt-money.png"}
           links={[
@@ -136,8 +127,19 @@ export function Projects(){
               href: "https://github.com/ElleLavigne/to-do-list",
               text: "Github",
             },
-           
-           
+          ]}
+        />
+        <Project
+          title={"Dashboard | Pizza Shop"}
+          description={
+            "Em processo: Uma aplicação web focada em consumo e integração de APIs, construída com React, estilizada com Tailwind e ShadCN-UI. O projeto utiliza Docker para simplificar o ambiente de desenvolvimento e deploy, garantindo escalabilidade e consistência. Ideal para demonstrar expertise em integrações e construção de interfaces modernas e responsivas."
+          }
+          thumb={"/pizza-shop-ignite-thumb.png"}
+          links={[
+            {
+              href: "https://github.com/ElleLavigne/pizzashop-web",
+              text: "Github",
+            },
           ]}
         />
         

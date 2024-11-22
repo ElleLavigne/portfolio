@@ -8,14 +8,13 @@ export function Headline(){
       {/* <Animation> */}
         <div className={styles.headline}>
           <div className={styles.text}>
-            <h1>
-              Hello, I'm Izaelle <br />
+            <span>
+             Olá, me chamo Izaelle
               Lavigne.
-            </h1>
+            </span>
 
             <p>
-              I am a UI UX designer and front-end <br />
-              developer.
+              Sou uma desenvolvedora front-end e UI UX designer.
             </p>
           </div>
 
