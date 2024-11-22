@@ -8,15 +8,14 @@ export function About() {
       <div className={styles.about}>
         <div className={styles.content}>
           <h1 className={styles.title}>
-            Hello, I'm Izaelle Lavigne, UI UX Design front-end developer
+            Olá, Me chamo Izaelle Lavigne, sou desenvolvedora front-end e UI UX Design.
           </h1>
           <p className={styles.text}>
-          Front-end Developer and UI/UX Design specialist, I focus on creating high-performance, 
-          intuitive digital interfaces, combining technical skills with aesthetic vision to deliver exceptional solutions. 
-          I have advanced proficiency in React.js, JavaScript, TypeScript, CSS, and SCSS, 
-          along with expertise in modern development tools such as Vite and Styled-components. 
-          Experienced with Figma, Adobe, and Framer, I handle everything from visual conception to advanced prototyping, 
-          ensuring consistent and optimized experiences for end users.
+          Desenvolvedora front-end e design UI/UX, com foco na criação de interfaces digitais intuitivas e de alto desempenho. 
+          Possuo domínio em React.js, JavaScript, TypeScript, CSS, SCSS, Tailwind CSS e ferramentas modernas, como Vite e Styled-components. 
+          Tenho experiência em integração de APIs e nas principais plataformas de design, incluindo Figma, Adobe e Framer, 
+          atuando em todas as etapas do processo, desde a concepção visual até a prototipagem, com o objetivo de entregar soluções consistentes e 
+          otimizadas para os usuários.
           </p>
 
           {/* <div className={styles.mainSoftware}>
